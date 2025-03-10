@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('foto/DIY\ BBQ\ Gift\ Ideas\ For\ Dads\ Made\ On\ The\ Cricut-\ Perfect\ For\ Father\'s\ Day\ 20\ +\ DIY\ Mothers\ Day\ Gift\ B.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Crimson Text;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(197, 153, 182);
+    color: rgb(230, 60, 60) !important;
+}
+
+
+.custom-header {
+    color: rgb(197, 153, 182);
+    background-color: rgb(250, 208, 196, 0.75);
+}
+
+.custom-footer {
+    color: rgb(197, 153, 182);
+    background-color: rgb(250, 208, 196, 0.75);
+    text-align: center;
+}
+
+.box-container{
+    background-color: rgb(250, 208, 196, 0.75);
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.nav-custom{
+    color: rgb(197, 153, 182);
+    background-color: rgb(250, 208, 196, 0.75);
+}
+
+.no-bullets {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.no-bullets li {
+    width: 45%; 
+    padding: 5px 0;
+}
+
+.kontak-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+  
+.kontak-container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+  
+.kontak-container i {
+    font-size: 22px;
+    color: #C599B6; 
+    transition: 0.3s ease-in-out;
+}
+  
+.kontak-container a:hover i {
+    color: #d8b9ce; 
+}

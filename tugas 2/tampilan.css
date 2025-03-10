@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: Outfit;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 217, 255, 1.0);
+}
+
+.jumbotron{
+    background-color: rgb(119, 82, 254, 0.5);
+    text-align: center;
+    color: rgb(25, 4, 130);
+    padding: 40px;
+}
+
+nav{
+    background-color: rgb(108, 72, 197);
+    padding: 10px;
+    text-align: center;   
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px; 
+    
+       
+}
+nav ul li a{
+    text-decoration: none;    
+    font-weight: bold;
+    color: rgb(198, 143, 230);
+    transition: padding 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: rgb(213, 197, 223);
+    padding: 0.75em;
+    border-radius: 20px;
+}
+
+.kotakpost{
+    background-color: rgb(228, 177, 240, 0.5);
+    p{color: rgb(67, 56, 120)};
+    h2{color:rgb(116, 83, 199); text-align: center};
+    h4{color: rgb(99, 66, 182)};
+    h5{color: rgb(71, 30, 177); font-size: medium;}
+    h6{color: rgb(48, 28, 98);}
+    padding: 20px;
+    margin: 50px;
+    border-radius: 20px;
+    border-style: dashed;
+    box-shadow: 5px 5px 5px azure;
+    text-align:justify;
+    img{border-radius: 15px; width: 90%;}
+}
+
+.kotakpost ul{
+    background-color:  rgb(228, 177, 240);
+    border-radius: 20px;
+    padding: 15px;
+}
